@@ -1,0 +1,6 @@
+$ pytest --verbose -k dashboard
+$ pytest --verbose -k system
+$ pytest --verbose -k group
+$ pytest --verbose -k role
+$ pytest --verbose -k user
+$ pytest --verbose -k "user or group"
