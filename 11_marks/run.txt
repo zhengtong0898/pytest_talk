@@ -1,0 +1,7 @@
+$ pytest -m "p1"            # 仅执行p1标签的用例
+
+$ pytest -m "not p1"        # 除了p1标签的用例不执行, 其他用例都执行
+
+$ pytest -m "slow"          # 仅执行slow标签的用例
+
+$ pytest -m "p1 and slow"   # 仅执行同时打了p1和slow标签的用例

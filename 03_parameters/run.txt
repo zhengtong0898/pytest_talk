@@ -1,3 +1,4 @@
 $ pytest --verbose test_single.py
 $ pytest --verbose test_multiple.py
+$ pytest --verbose test_condition.py
 
