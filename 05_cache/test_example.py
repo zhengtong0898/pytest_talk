@@ -16,3 +16,5 @@ def test_case_02(request):
 
 def test_case_03(request):
     assert request.config.cache.get("token", None) is None          # 读取缓存, 期望是空
+    request.config.cache.set("token", token)                        # 再次把缓存写回去
+    assert request.config.cache.get("token", None) == token
