@@ -1,6 +1,7 @@
 import pytest
 
 
+# 这里是两组参数组合，pytest采取穷尽组合地传递值给测试用例。
 # parameter的加载和执行顺序是: LIFO，所以会先执行最下面的parameters然后再执行最上面的parameters
 @pytest.mark.parametrize("test_input, expected", [("3+5", 8), ("2+4", 6), ("6*9", 54)])
 @pytest.mark.parametrize("other_input", ["linux", "python", "pytest"])

@@ -1,6 +1,7 @@
 import pytest
 
 
+# 当已知某个参数是受限是，通过pytest.param方法可以标记跳过该参数的测试。
 @pytest.mark.parametrize(
     "platform",
     [

@@ -1,0 +1,11 @@
+# 没有复用fixture的场景
+pytest --verbose -s test_case_pytest.py
+python3 -m unittest --verbose -k test_case_unittest.py
+
+# 复用fixture的场景
+pytest --verbose -s test_case_pytest_reuse.py
+python3 -m unittest --verbose -k test_case_unittest_reuse.py
+
+# 多fixture组合的场景
+pytest --verbose -s test_case_pytest_multifixture.py
+python3 -m unittest --verbose -k test_case_unittest_multiinherit
