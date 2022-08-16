@@ -1,0 +1,7 @@
+$ pytest --verbose                  # 默认操作
+
+$ pytest                            # 将 --verbose 纳入到 pytest.ini
+
+$ pytest --disable-warnings         # 关闭警告信息
+
+$ pytest                            # 将 addopts = --verbose --disable-warnings 纳入到 pytest.ini
