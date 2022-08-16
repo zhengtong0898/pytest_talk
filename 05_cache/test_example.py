@@ -1,7 +1,6 @@
-import uuid
 
 
-token = uuid.uuid4().hex
+token = '7e6a9597831c4dffb4ce9c6404816069'
 
 
 def test_case_01(request):

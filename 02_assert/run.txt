@@ -1,0 +1,6 @@
+# 运行unittest
+$ python3 -m unittest --verbose -k test_case_unittest
+
+
+# 运行pytest
+$ pytest --verbose test_case_pytest.py
