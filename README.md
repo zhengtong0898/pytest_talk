@@ -145,9 +145,13 @@ Pytest借助setuptools库的能力去遍历读取Python/site-packages目录下�
 
 
 3. Pytest提供了什么Hook接口  
-<div style="text-align: center">Pytest全生命周期预留的全量Hooks图</div>
-<div style="text-align: center">https://docs.pytest.org/en/7.1.x/reference/reference.html#hooks</div>
-![Pytest全量Hook图](https://github.com/zhengtong0898/notebook/blob/main/tester/pytest/docs/hooks/pytest_invocation_chain.png)
+
+   <div style="text-align: center">Pytest全生命周期预留的全量Hooks图</div>  
+
+   <div style="text-align: center">https://docs.pytest.org/en/7.1.x/reference/reference.html#hooks</div>   
+
+   ![Pytest全量Hook图](https://github.com/zhengtong0898/notebook/blob/main/tester/pytest/docs/hooks/pytest_invocation_chain.png)   
+
 
 4. 针对Hook接口做符合需求的实现
 5. 如何将打好包的插件上传到官方组件库  
